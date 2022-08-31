@@ -1,0 +1,29 @@
+.plan{
+    display: flex;
+    flex-direction: row;
+    font-weight: lighter;
+    padding: 1.5em;
+}
+.plan_title{
+    flex: 1;
+}
+.subs_buttn{
+    cursor: pointer;
+    width: 10em;
+    color: white;
+    background-color: rgba(255, 59, 41, 0.843);
+}
+.subs_buttn:hover{
+    background-color: rgba(255, 21, 0, 0.843);
+}
+.active_buttn{
+    cursor: pointer;
+    width: 15em;
+    color: white;
+    background-color: grey;
+}
+@media only screen and (max-width: 600px) {
+    .plan{
+        font-size: 1.2em;
+    }
+}

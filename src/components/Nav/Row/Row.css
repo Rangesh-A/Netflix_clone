@@ -1,0 +1,40 @@
+.row{
+    color: white;
+    margin-left: 20px;
+    scroll-behavior:smooth;
+    font-family: Poppins;
+}
+.row >h1{
+    padding-top: 20px;
+}
+.row_posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+}
+.row_poster{
+    max-height: 110px;
+    object-fit: contain;
+    width: 100%;
+    padding: 10px;
+    transition: 0.5s;
+}
+.row_poster:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.row_posterLarge{
+    max-height: 200px;
+    object-fit: contain;
+    width: 100%;
+    padding: 10px;
+    transition: 0.5s;
+}
+.row_posterLarge:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,57 @@
+.signinscreen{
+    max-width: 300px;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.862);
+    text-align: left;
+    font-family: Poppins;
+}
+.signin>input{
+    font-family: Poppins;
+    padding: 10px;
+    width: 20em;
+    height: 1.5em;
+    border: none;
+    border-radius: 5px;
+    margin: 8px 0px;
+}
+.signin>h1{
+    font-size: 0.9em;
+}
+.signin_grey{
+    color: grey;
+}
+.signin_link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.signin>button{
+    padding: 1em 9.2em;
+    margin: 25px 0px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #e50914;
+    font-size: 0.83em;
+    font-weight:bold;
+}
+.signin>button:hover{
+    background-color: #d32a32;
+    cursor: pointer;
+}
+.signin>h5{
+    color: red;
+    margin-bottom: 1em;
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 600px) {
+    .signinscreen{
+        font-size: .8em;
+        padding: 100px 10px;
+    }
+    .signin>button{
+        width: 27em;
+    }
+}
